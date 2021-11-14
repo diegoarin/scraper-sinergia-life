@@ -1,0 +1,31 @@
+{
+  "name": "scraper-sinergia-life",
+  "version": "1.0.0",
+  "description": "Scraper para reservar horas en el sinergia life cuando se liberan cupos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoarin/scraper-sinergia-life.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoarin/scraper-sinergia-life/issues"
+  },
+  "homepage": "https://github.com/diegoarin/scraper-sinergia-life#readme",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.16.3",
+    "playwright": "^1.16.3",
+    "dotenv": "^10.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
